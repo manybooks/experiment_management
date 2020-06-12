@@ -22,12 +22,8 @@ class MyAppBar extends AppBar {
           title: title,
           bottom: TabBar(
             tabs: <Widget>[
-              Tab(
-                text: 'Experiment',
-              ),
-              Tab(
-                text: 'Activity',
-              ),
+              Tab(text: 'Experiment'),
+              Tab(text: 'Activity'),
             ],
           ),
         );
